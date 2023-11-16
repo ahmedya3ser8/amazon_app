@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "/images/products/headphone-1.webp",
+    "categorey": "Headphones",
+    "title": "Headphones Wireless",
+    "oldPrice": 150.00,
+    "newPrice": 103.20,
+    "save": 46.80
+  },
+  {
+    "id": 2,
+    "imgUrl": "/images/products/headphone-2.webp",
+    "categorey": "Headphones",
+    "title": "Gaming Headphone",
+    "oldPrice": 300.00,
+    "newPrice": 270.00,
+    "save": 30.00
+  },
+  {
+    "id": 3,
+    "imgUrl": "/images/products/headphone-3.webp",
+    "categorey": "Headphones",
+    "title": "Headphone with Mic",
+    "oldPrice": 490.00,
+    "newPrice": 360.00,
+    "save": 130.00
+  },
+  {
+    "id": 4,
+    "imgUrl": "/images/products/ipad-1.webp",
+    "categorey": "Mobile Tablets",
+    "title": "Galaxy Android Tablet",
+    "oldPrice": 380.00,
+    "newPrice": 340.00,
+    "save": 40.00
+  },
+  {
+    "id": 5,
+    "imgUrl": "/images/products/mobile-1.webp",
+    "categorey": "Mobile Tablets",
+    "title": "iPhone 14 Pro",
+    "oldPrice": 1399.00,
+    "newPrice": 1350.00,
+    "save": 49.00
+  },
+  {
+    "id": 6,
+    "imgUrl": "/images/products/mobile-2.webp",
+    "categorey": "Mobile Tablets",
+    "title": "Apple iPad Air",
+    "oldPrice": 999.00,
+    "newPrice": 949.99,
+    "save": 49.01
+  },
+  {
+    "id": 7,
+    "imgUrl": "/images/products/watch-1.webp",
+    "categorey": "Smart Watch",
+    "title": "Sony Smart Watch",
+    "oldPrice": 299.00,
+    "newPrice": 189.99,
+    "save": 109.01
+  },
+  {
+    "id": 8,
+    "imgUrl": "/images/products/watch-2.webp",
+    "categorey": "Smart Watch",
+    "title": "Sony Lady Fitness Watch",
+    "oldPrice": 199.00,
+    "newPrice": 169.00,
+    "save": 30.00
+  },
+  {
+    "id": 9,
+    "imgUrl": "/images/products/watch-3.webp",
+    "categorey": "Smart Watch",
+    "title": "Apple Watch Sport Band",
+    "oldPrice": 470.00,
+    "newPrice": 399.99,
+    "save": 70.01
+  },
+  {
+    "id": 10,
+    "imgUrl": "/images/products/blutooth-1.webp",
+    "categorey": "Bluetooth",
+    "title": "Lenovo Wireless Bluetooth",
+    "oldPrice": 99.99,
+    "newPrice": 79.99,
+    "save": 20.00
+  },
+  {
+    "id": 11,
+    "imgUrl": "/images/products/blutooth-2.webp",
+    "categorey": "Bluetooth",
+    "title": "Lenovo Sports Bluetooth",
+    "oldPrice": 57.00,
+    "newPrice": 49.00,
+    "save": 8.00
+  },
+  {
+    "id": 12,
+    "imgUrl": "/images/products/cpu-1.webp",
+    "categorey": "CPU Heat Pipes",
+    "title": "DeepCool Air Cooler",
+    "oldPrice": 130.00,
+    "newPrice": 110.00,
+    "save": 20.00
+  },
+  {
+    "id": 13,
+    "imgUrl": "/images/products/cpu-2.webp",
+    "categorey": "CPU Heat Pipes",
+    "title": "Antec Air Cooler",
+    "oldPrice": 250.00,
+    "newPrice": 170.00,
+    "save": 80.00
+  },
+  {
+    "id": 14,
+    "imgUrl": "/images/products/shoes-1.webp",
+    "categorey": "Shoes",
+    "title": "Nike Retro GTS-2",
+    "oldPrice": 450.00,
+    "newPrice": 399.99,
+    "save": 50.01
+  },
+  {
+    "id": 15,
+    "imgUrl": "/images/products/powder-1.webp",
+    "categorey": "Discover Skincare",
+    "title": "INIKA Mineral Sunkissed",
+    "oldPrice": 99.00,
+    "newPrice": 80.00,
+    "save": 19.00
+  },
+  {
+    "id": 16,
+    "imgUrl": "/images/products/cosmetics-2.webp",
+    "title": "Discover Skincare",
+    "categorey": "Tea Tree Lemon For Fine Hair",
+    "oldPrice": 70.00,
+    "newPrice": 55.00,
+    "save": 15.00
+  },
+  {
+    "id": 17,
+    "imgUrl": "/images/products/cosmetics-1.webp",
+    "categorey": "Awesome Lip Care",
+    "title": "Brand Cosmetic Product",
+    "oldPrice": 160.00,
+    "newPrice": 120.00,
+    "save": 40.00
+  },
+  {
+    "id": 18,
+    "imgUrl": "/images/products/cream-1.webp",
+    "categorey": "Awesome Lip Care",
+    "title": "Innisfree Face Wash",
+    "oldPrice": 130.00,
+    "newPrice": 99.99,
+    "save": 30.01
+  },
+  {
+    "id": 19,
+    "imgUrl": "/images/products/bracelet-1.webp",
+    "categorey": "Bracelets",
+    "title": "Fortuna Bangle Three-row",
+    "oldPrice": 600.00,
+    "newPrice": 499.00,
+    "save": 101.00
+  },
+  {
+    "id": 20,
+    "imgUrl": "/images/products/earring-1.webp",
+    "categorey": "Earrings",
+    "title": "Fortuna Creole Hoop",
+    "oldPrice": 550.00,
+    "newPrice": 380.00,
+    "save": 170.00
+  }
+]
