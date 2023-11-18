@@ -17,7 +17,7 @@ function CartItem() {
       <div className="container">
           {cart.length > 0 ? (
             <div className="flex gap-5">
-            <div className="right w-[75%] bg-white p-[15px]">
+            <div className="right w-[75%] bg-white p-[15px] rounded-[10px]">
               <div className="cart-head flex justify-between items-center border-b-[1px] border-solid border-[#000] py-1">
                 <h2 className='font-bold text-[20px]'>Shopping Cart</h2>
                 <span className='font-medium text-[18px]'>Subtotal</span>

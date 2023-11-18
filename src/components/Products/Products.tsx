@@ -3,6 +3,7 @@ import { Heart, ShoppingCart } from 'lucide-react';
 import { addToCart } from '../../rtk/slices/cartReducer';
 import {useEffect, useState} from 'react'
 import { ProductsType } from '../../types/app';
+import { addToFavorite } from '../../rtk/slices/favoriteReducer';
 
 
 function Products() {
@@ -29,7 +30,7 @@ function Products() {
                   <ShoppingCart onClick={() => dispatch(addToCart(product))} />
                 </span>
                 <span className='block p-2 transition-all duration-300 hover:bg-[#21cc18] cursor-pointer'>
-                  <Heart />
+                  <Heart onClick={() => {dispatch(addToFavorite(product))}} />
                 </span>
               </div>
               <hr className="border-[#000]" />

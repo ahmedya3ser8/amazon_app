@@ -18,3 +18,14 @@ export type cartType = {
   save: number;
   quantity: number;
 }
+
+export type favoriteType = {
+  id: number;
+  imgUrl: string;
+  category: string;
+  title: string;
+  oldPrice: number;
+  newPrice: number;
+  save: number;
+  quantity: number;
+}

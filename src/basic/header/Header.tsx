@@ -5,6 +5,7 @@ import { RootState } from '../../rtk/store';
 
 function Header() {
   const cart = useSelector((state:RootState) => state.cart.cartItems);
+  const favorite = useSelector((state:RootState) => state.favorite.favoriteItems);
   return (
     <header className='text-white bg-black p-3 sticky top-0 z-50 w-full'>
       <div className="container">
@@ -30,9 +31,10 @@ function Header() {
               Hello, sign in
               <span className='block font-bold'>Accounts & Lists</span>
             </Link>
-            <Link to={'favorite'} className='text-[14px] p-1 border-[1px] border-solid border-transparent hover:border-white'>
+            <Link to={'favorite'} className='relative text-[14px] p-1 border-[1px] border-solid border-transparent hover:border-white'>
               Market
               <span className='block font-bold'>& Favorite</span>
+              <span className='absolute right-[13px] top-[2px] text-[#21cc18] p-1 w-2 h-2'>{favorite.length}</span>
             </Link>
             <Link to={'cart'} className='relative text-[14px] p-1 border-[1px] border-solid border-transparent hover:border-white flex items-center gap-1'>
               <img src={'/images/cart.png'} alt='cart' className='w-[50px]' />
