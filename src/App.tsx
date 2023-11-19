@@ -6,7 +6,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Favorite from "./pages/favorite";
+import Favorite from "./pages/Favorite";
 
 function App() {
   return (

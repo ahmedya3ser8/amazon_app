@@ -29,3 +29,8 @@ export type favoriteType = {
   save: number;
   quantity: number;
 }
+
+export type navbarType = {
+  path: string;
+  text: string;
+}

@@ -19,7 +19,7 @@ function FavoriteItem() {
             </div>
             <div className="grid grid-cols-1 p-[15px_0]">
               {favorites.map(favorite => (
-                <div className="favorite-box flex gap-5 p-[10px] mb-[15px] bg-[#f6f6f6] rounded-[10px]" key={favorite.id}>
+                <div className="favorite-box flex flex-col lg:flex-row gap-5 p-[10px] mb-[15px] bg-[#f6f6f6] rounded-[10px]" key={favorite.id}>
                   <div className="favorite-img">
                     <img src={favorite.imgUrl} alt={favorite.title} className="h-[200px] w-[250px] transition-all duration-300 hover:scale-110" />
                   </div>
@@ -27,7 +27,7 @@ function FavoriteItem() {
                     <div className="flex justify-between">
                       <div className="favorite-body-head">
                         <h2 className="favorite-title text-[18px] font-bold">{favorite.title}</h2>
-                        <p className="favorite-desc text-[#777] w-[65%]">
+                        <p className="favorite-desc text-[#777] w-full lg:w-[65%]">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                           Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi,
                           ex iste doloribus magnam.

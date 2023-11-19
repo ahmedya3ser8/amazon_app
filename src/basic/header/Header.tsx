@@ -9,7 +9,7 @@ function Header() {
   return (
     <header className='text-white bg-black p-3 sticky top-0 z-50 w-full'>
       <div className="container">
-        <div className="flex justify-between items-center gap-5">
+        <div className="flex items-center gap-5">
           <div className="left flex items-center gap-4">
             <Link to={'/'} className='p-1 border-[1px] border-solid border-transparent hover:border-white'>
               <img src={'/images/logo.png'} alt='logo' className='h-10' />
@@ -22,9 +22,9 @@ function Header() {
               </div>
             </div>
           </div>
-          <div className="center w-[65%] xl:w-[55%] h-10 flex items-center rounded-[20px]">
+          <div className="center flex-1 h-10 hidden md:flex items-center rounded-[20px]">
             <input type="text" placeholder='Search for...' className='w-full h-full outline-none text-black p-[5px] rounded-[10px_0_0_10px]' />
-            <Search className='h-full bg-[#21cc18] text-black p-2 w-[7%] rounded-[0_10px_10px_0]' />
+            <Search className='h-full bg-[#21cc18] text-black p-2 w-[35px] rounded-[0_10px_10px_0]' />
           </div>
           <div className="right flex items-center gap-3">
             <Link to={'login'} className='text-[14px] p-1 border-[1px] border-solid border-transparent hover:border-white'>
